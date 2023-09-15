@@ -28,10 +28,10 @@ and __effectiveDate__. The said properties are implemented as well as the getter
 ```
     private Employee employee;
     private BigDecimal salary;
-    private Date effectiveDate;
+    private LocalDate effectiveDate;
 ```
 
-__BigDecimal__ is declared for salary so there would be no loss of precision and __Date__ is declared 
+__BigDecimal__ is declared for salary so there would be no loss of precision and __LocalDate__ is declared 
 for the exact month, day, and year of the effective date of an employee.
 
 ### CompensationServiceImpl.java
